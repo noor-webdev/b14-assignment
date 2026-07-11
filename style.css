@@ -164,7 +164,6 @@ button{
 
 
 
-
 .pricing-section {
     max-width: 1100px;
     margin: 80px auto;
@@ -276,3 +275,131 @@ button{
     background-color: #2563eb;
     color: white;
 }
+
+
+
+
+
+
+
+.job-board {
+
+    max-width:1100px;
+
+    margin:80px auto;
+
+    padding:70px 20px;
+
+    background:#0f172a;
+
+    border-radius:20px;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+
+.job-container h2 {
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+
+.job-container > p {
+
+    color:#94a3b8;
+
+    max-width:650px;
+
+    margin:0 auto 40px;
+
+}
+
+
+
+.job-cards {
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+
+
+.job-card {
+
+    background:#1e293b;
+
+    padding:30px 20px;
+
+    border-radius:16px;
+
+    transition:.3s;
+
+}
+
+
+
+.job-card:hover {
+
+    transform:translateY(-8px);
+
+}
+
+
+
+.job-card span {
+
+    font-size:40px;
+
+}
+
+
+.job-card h3 {
+
+    margin:20px 0 10px;
+
+}
+
+
+
+.job-card p {
+
+    color:#cbd5e1;
+
+}
+
+
+
+.job-card button {
+
+    margin-top:20px;
+
+    padding:12px 25px;
+
+    border:none;
+
+    border-radius:25px;
+
+    background:#38bdf8;
+
+    color:#0f172a;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+}
+
+
+
+
+
